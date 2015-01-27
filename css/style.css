@@ -1,0 +1,167 @@
+/* CSS Document */
+
+html,body {
+width:100%;
+height:auto;
+padding-left:-15%;
+}
+
+#main { 
+margin:0 auto;
+padding-top:-15%; 
+width:100%;
+ height:auto;
+ background:url(../img/background.png) no-repeat;
+ z-index:-1;
+ }
+
+
+#wrapper { 
+width:95%; 
+height:auto; 
+
+margin-left:2%
+}
+
+#header{
+width:100%;
+position:relative; 
+height:20%; 
+
+margin:0 auto;
+} 
+
+
+
+#footer {
+width:100%; 
+height:auto; 
+background-color:#00CCCC;
+margin-top:0 auto; 
+ }
+
+
+#pannel
+	{
+		overflow: hidden;
+		padding:0%;
+	}
+	
+	#pannel .title
+	{
+		text-align: center;
+		color:#005588;
+	}
+	.boxA,
+	.boxB,
+	.boxC,
+	.boxD
+	{
+		width: 45%;
+		height:90%
+		opacity:.3%;
+		background:url(../img/menubar2.png);
+	}
+	
+	.boxA,
+	.boxC
+	{
+	margin-left: 3%;
+	}
+	
+
+	.boxA,
+	.boxB,
+	.boxC,
+	.boxD
+	
+	{
+		float: left;
+		margin-right: 2%;
+	}
+	.boxC,
+	.boxD
+	{
+	margin-top:2%;
+	}
+	
+	
+	.box
+{ padding-top: 1%;
+padding-left: 1%;
+border:thin solid #9D9D9D;
+text-align:left;
+}
+
+
+.box span
+{
+color:#BF0060;
+font-size:180%;
+font-family:"Times New Roman", Times, serif;
+padding-left:3%;
+padding-top:18.99%;
+}
+
+.box div
+{
+padding-left:3%;
+}
+
+.box h1
+{
+font-family:"Times New Roman", Times, serif;
+padding-left:20%;
+padding-top:3%;
+font-size:150%;
+color:#CC0000;
+}
+
+
+#news
+{
+width:30%;
+height:auto;
+background:url(../img/menubar1.png);
+margin-top:-0.2%;
+padding-top:0%;
+float:left;
+}
+
+
+#news h1
+{
+padding-left:17.55%;
+padding-top:0%;
+color:#004080;
+font-family:"Times New Roman", Times, serif;
+}
+
+#news a
+{
+padding-left:8.33%;
+
+text-decoration:none;
+color:#005F8C;
+font-size:120%;
+}
+
+#box_body
+{
+width:100%;
+
+}
+
+#box_body_left
+{
+width:70%;
+float:left;
+
+}
+
+#box_body_right
+{
+width:30%;
+background-color:#0099FF;
+float:right;
+}

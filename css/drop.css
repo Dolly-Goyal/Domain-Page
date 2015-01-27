@@ -1,0 +1,83 @@
+/* CSS Document */
+
+
+
+.navMenu{
+margin:0;
+padding:0;
+text-decoration:none;
+}
+
+
+.navMenu ul{
+margin:0;
+padding:0;
+line-height:180%;
+}
+
+
+.navMenu li{
+margin:0;
+padding:0;
+list-style:none;
+float:left;
+position:relative;
+}
+
+
+.navMenu ul li a{
+text-align:left;
+padding-left:5%;
+font-family:"Times New Roman", Times, serif;
+font-size:120%;
+text-decoration:none;
+display:block;
+color:#FF3366;
+}
+
+
+
+.navMenu ul ul{
+position:absolute;
+visibility:hidden;
+}
+
+
+
+
+.navMenu ul li:hover ul{
+visibility:visible
+}
+
+
+
+
+.nav ul {
+position:absolute;
+visibility:hidden;
+
+}
+	 
+.nav li:hover ul{
+visibility:visible;
+display:list-item;
+}	 
+
+.nav-sub
+{
+display:list-item;
+
+}
+	 
+.nav-sub li
+{
+width:100%;
+text-decoration:none;
+display:block;
+background-color:#FFFFFF;
+} 
+	 
+.navMenu ul
+{
+list-style:none;
+}

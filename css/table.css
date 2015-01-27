@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.table
+{
+margin:0%;
+padding:0%;
+border:#333333;
+background-color:#FFFFFF;
+width:60.222%;
+height:auto;
+}
+
+
+.table table
+{
+width:160%;
+height:auto;
+border:#333333;
+background-color:#FFFFFF;
+}
+
